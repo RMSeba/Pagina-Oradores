@@ -1,0 +1,107 @@
+/* *{
+    border:red solid 2px
+} */
+#navbarNav{
+    margin-right: 50px;
+}
+#nav-general{
+    background-color: rgb(84, 83, 83);
+    
+}
+#nav-general a{
+    color: white 
+}
+#logo{
+    margin-left: 30px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 700px;
+    filter:brightness(0.5)
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    
+}
+.titulo{
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+
+}
+.p-titulo{
+    margin-top: 10px;
+    font-size: 12px;
+}
+#lugar{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    
+    
+   
+}
+.lugar-img{
+    width: 50%;
+    
+}
+.info-lugar{
+    width: 50%;
+    height: 482px;
+    background-color: rgb(101, 100, 100);
+    color: white;
+    padding: 20px;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+form{
+   width: 60%
+}
+.enviar-btn{
+    
+    width: 100%;
+}
+footer{
+    background-color: rgb(7, 76, 132);
+    
+
+}
+footer ul{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0px ;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    list-style-type: none;
+}
+footer ul li a {
+    cursor: pointer; 
+    color: white;
+    text-decoration: none;
+}
+@media (max-width: 1300px) {
+    #lugar{
+        width: 90%;;
+        display: block;
+        margin:10px 5%;
+         
+        
+    }
+    .lugar-img {
+        width: 100%;
+    }
+
+    .info-lugar {
+        width: 100%; 
+        height: auto;
+    }
+}
+
