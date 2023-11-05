@@ -87,6 +87,32 @@ footer ul li a {
     color: white;
     text-decoration: none;
 }
+/* ##########compra de  tickets ###############################*/
+.ofertas{
+    width: 60%;
+   
+    
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.descuento{
+    width: 25%;
+    /* height: 200px; */
+    /* border: solid 2px blue; */
+}
+ .btn-compra{
+   width: 45%;
+ }
+ .form-compra{
+    width: 60%;
+ }
+
+
+
+
+
+
 @media (max-width: 1300px) {
     #lugar{
         width: 90%;;
@@ -102,6 +128,18 @@ footer ul li a {
     .info-lugar {
         width: 100%; 
         height: auto;
+    }
+    .ofertas{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+      
+    }
+    .descuento{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 200px;
     }
 }
 
