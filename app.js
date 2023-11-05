@@ -5,11 +5,14 @@ let nombre=document.getElementById('nombre');
 
 let apellido=document.getElementById('apellido');
 let email=document.getElementById('email');
+let tablero=document.getElementById('tabla-total')
 
 
 function resumen(){
-    
-    let total
+    tablero.style.borderColor="#b3d7ff"
+    tablero.style.borderWidth="4px"
+    tablero.style.borderStyle="solid"
+    let total;
     cantidadBoletos=cantidad.value;
     descuento=categoria.value;
     console.log(nombre)
@@ -44,8 +47,9 @@ function resumen(){
     }
 }
 function borrar(){
-    mostrador.innerHTML="Total a pagar:$"
- 
+    mostrador.innerHTML="Resumen:"
+    tablero.style.border="none"
+
 }
 function mayusPrimerLetra(cadena) {
     return cadena.charAt(0).toUpperCase() + cadena.slice(1);

@@ -105,8 +105,19 @@ footer ul li a {
    width: 45%;
  }
  .form-compra{
-    width: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
  }
+#tabla-total{
+    /* border:#b3d7ff; */
+    background-color: #e3effc;
+    border-radius: 10px;
+    width: 100%;
+}
+.formu{
+    width: 53%;
+}
 
 
 
